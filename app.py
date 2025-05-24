@@ -1,3 +1,12 @@
+
+import nltk
+import sklearn
+# Download stopwords on first run
+nltk.download('stopwords')
+
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+
 import streamlit as st
 import pickle
 import string
